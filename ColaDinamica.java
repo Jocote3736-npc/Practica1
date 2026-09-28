@@ -56,7 +56,7 @@ public class ColaDinamica {
         return ticketExtraido;
     }
 
-    // Getters para mantener compatibilidad con tu código
+    // Getters
     public int getFrenteId() {
         Ticket frenteTicket = verFrente();
         return (frenteTicket != null) ? frenteTicket.getId() : -1;
