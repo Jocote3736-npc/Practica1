@@ -3,7 +3,7 @@ import java.time.temporal.ChronoUnit;
 
 public class Ticket {
 
-    private static int cantidad = 0; // Entero consecutivo estático según la consigna
+    private static int cantidad = 0; 
 
     private int id;
     private String nombreCompleto;
